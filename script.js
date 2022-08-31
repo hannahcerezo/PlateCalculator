@@ -7,7 +7,7 @@ document.querySelector('.enterWeight').addEventListener('click', function () {
 
 
   const BARBELL = 45;
-  const PLATES = [45, 25, 10, 5, 2.5]; // array to loop through of the weight amounts
+  const PLATES = [45, 25, 10, 5, 2.5]; // array to loop through of the weight amounts. No one uses 35s. stop that.
   const needForLoad = []; // the plates needed for the load
 
   if (weight % 5 !== 0) {
@@ -37,6 +37,6 @@ document.querySelector('.enterWeight').addEventListener('click', function () {
 
   } // end else
 
-  document.querySelector('.labelPlatesNeeded').textContent = 'The plates you need are: ';
+  document.querySelector('.labelPlatesNeeded').textContent = 'The plates you need are:  ';
   document.querySelector('.plates').textContent = needForLoad;
 });

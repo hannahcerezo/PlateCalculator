@@ -5,8 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-  <title>Training Log</title>
+  <title>Plate Calculator v2</title>
 
 </head>
 <!-- The home2.js and index2.html files need to be renamed -->
@@ -19,17 +18,21 @@
   </header>
 
   <main>
-    <section class="left">
-      <p class="prompt">Enter what you want to load (in lbs):</p>
-      <input type="number" class="wantedAmount" />
-      <button class="btttn enterWeight">Enter</button>
+    <p class="label-units">Are you lifting in <b>kgs</b> or <b>lbs?</b></p>
+    <section class="selectUnits">
+      <button class="bttn selectKgs">KGS</button>
+      <button class="bttn selectLbs">LBS</button>
     </section>
-    <section class="right">
-      <p class="labelPlatesNeeded"> </p>
-      <span class="plates"> </span>
+    <section class="kgs">
+      <p class="promptKgs"></p>
+      <p class="messageKgs"></p>
+      <span class="platesNeededKgs"></span>
+    </section>
+    <section class="lbs">
+      <p class="promptLbs"></p>
     </section>
   </main>
-  <script src="home2.js"></script>
+  <script src="script2.js"></script>
 </body>
 
 </html>

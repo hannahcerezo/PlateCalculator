@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  border-color: aliceblue;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+  background-color: rgb(40, 39, 39);
+}
+
+header {
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.top-title {
+  padding-top: 60px;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* dots */
+.dot1 {
+  animation: visibility 3s linear infinite;
+}
+
+@keyframes visibility {
+  0% {
+    opacity: 1;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  66% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.dot2 {
+  animation: visibility2 3s linear infinite;
+}
+
+@keyframes visibility2 {
+  0% {
+    opacity: 0;
+  }
+
+  21% {
+    opacity: 0;
+  }
+
+  22% {
+    opacity: 1;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  66% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.dot3 {
+  animation: visibility3 3s linear infinite;
+}
+
+@keyframes visibility3 {
+  0% {
+    opacity: 0;
+  }
+
+  43% {
+    opacity: 0;
+  }
+
+  44% {
+    opacity: 1;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  66% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+}
+
+.bttn {
+  border: none;
+  background-color: #fff;
+  font-family: 'Space Mono', monospace;
+  text-decoration: none;
+  padding: 2px 15px;
+  border: 2px solid #000;
+}
+
+.wantedAmount {
+  padding: 2px;
+}

@@ -137,3 +137,11 @@ footer {
 .wantedAmount {
   padding: 2px;
 }
+
+.plates {
+  padding-left: 1em;
+}
+
+.hidden {
+  display: none;
+}
